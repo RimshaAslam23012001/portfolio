@@ -1,0 +1,60 @@
+.rounded-container {
+    display: flex;
+    padding-left: 90px;
+    padding-right: 90px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    gap:10;
+    
+  }
+  .text-container {
+   font-size: 46px;
+   font-style: italic;
+   font-weight: 900;
+    padding-left: 40px;
+    margin: 20px;
+    justify-items: center;
+    align-items: center;
+
+  
+  }
+  .rounded-container image-container {
+    flex: 1;
+    text-align: left;
+    justify-items: center;
+    align-items: center;
+    margin-right: 40px;
+
+  }
+
+  .rounded-container img {
+    border-radius: 50%; /* For a fully rounded image */
+    width: 400px;
+    height: 400px;
+  }
+@media(max-width:1024){
+    .hero-side{
+        margin: 10px;
+    }
+    .hero-text{
+        font-size: 3rem;
+    }
+    .hero-image{
+        height: 40vh;
+    }
+
+}
+@media(min-width: 1024px){
+    .hero-side{
+        margin: 20px;
+    }
+    .hero-text{
+        font-size: 4rem;
+    }
+    .hero-image{
+        height: 50vh;
+    }
+}
+
+  
